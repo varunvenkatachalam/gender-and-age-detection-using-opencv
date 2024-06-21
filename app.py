@@ -35,7 +35,7 @@ genderProto = "gender_deploy.prototxt"
 genderModel = "gender_net.caffemodel"
 
 MODEL_MEAN_VALUES = (78.4263377603, 87.7689143744, 114.895847746)
-ageList = ['(0-5)', '(5-10)', '(10-20)', '(20-25)', '(25-30)', '(30-35)', '(35-45)', '(50-70)']
+ageList = ['(0-10)', '(10-15)', '(15-20)', '(20-25)', '(20-30)', '(30-35)', '(35-45)', '(50-70)']
 genderList = ['Male', 'Female']
 
 ageNet = cv2.dnn.readNet(ageModel, ageProto)
